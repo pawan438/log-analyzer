@@ -1,0 +1,20 @@
+2024-01-15 10:23:01 INFO Service started successfully
+2024-01-15 10:23:05 INFO Connected to database
+2024-01-15 10:23:10 WARNING High memory usage detected
+2024-01-15 10:23:15 ERROR Failed to connect to API
+2024-01-15 10:23:20 INFO Request received from 192.168.1.1
+2024-01-15 10:23:25 ERROR Timeout on database query
+2024-01-15 10:23:30 WARNING Disk space running low
+2024-01-15 10:23:35 INFO Request processed successfully
+2024-01-15 10:23:40 ERROR Connection refused
+2024-01-15 10:23:45 INFO Service health check passed
+2024-01-15 10:23:50 WARNING CPU usage above 80%
+2024-01-15 10:23:55 ERROR Failed to write to disk
+2024-01-15 10:24:00 INFO Backup completed
+2024-01-15 10:24:05 ERROR Null pointer exception
+2024-01-15 10:24:10 INFO User login: admin
+2024-01-15 10:24:15 ERROR Failed to connect to API
+2024-01-15 10:24:20 WARNING High memory usage detected
+2024-01-15 10:24:25 INFO Request received from 192.168.1.1
+2024-01-15 10:24:30 ERROR Timeout on database query
+2024-01-15 10:24:35 INFO Service restarted
