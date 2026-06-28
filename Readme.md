@@ -14,36 +14,6 @@ log level counts (ERROR, WARNING, INFO) and top repeating messages.
 
 ---
 
-## Project Structure
-
-docker-python-app/
-├── main.py            # Main log analyzer script
-├── Dockerfile         # Docker build instructions
-├── requirements.txt   # Dependencies (none, uses standard library)
-├── logs/
-│   └── sample.log     # Your log file goes here
-└── README.md
-
-
----
-
-## How to Build the Docker Image
-
-Make sure Docker is installed, then run:
-
-```bash
-sudo docker build -t log-app .
-```
-
-This will build the image and tag it as `log-app`.
-
----
-
-## How to Run the Container
-
-```bash
-sudo docker run -v $(pwd)/logs:/app/logs log-app
-```
 
 The `-v` flag mounts your local `logs/` folder into the container
 so it can read your `sample.log` file.
