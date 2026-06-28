@@ -1,4 +1,4 @@
-# Docker Python App — Log Analyzer
+# Log Analyzer
 
 A command-line tool that analyzes log files and provides insights such as
 log level counts (ERROR, WARNING, INFO) and top repeating messages.
